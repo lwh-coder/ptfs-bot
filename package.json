@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "module": "index.js",
+  "scripts": {
+    "dev": "bun run deploy-commands.js && bun run --hot index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "mongodb": "^6.7.0",
+    "uuid": "^10.0.0"
+  }
+}
